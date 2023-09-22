@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+/* centre header */
+h1 { 
+  text-align: center;
+}
+/* centre image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+nav {
+  text-align: center;
+}
+
+/* Style the navigation part(about,listings etc) */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  display: inline-block;
+  margin: 0 5px;
+}
+/* caption ya picha */
+figcaption {
+  text-align: center;
+  font-size: smaller;
+}
+
+/* centre main body text and give same width */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px; /* paragraph alignment */
+}
+
+/* horizontal details */
+#details div {
+  float: left;
+  width: 23.5%;
+  padding: 10px;
+  text-align: center;
+  background-color: red;
+}
+
